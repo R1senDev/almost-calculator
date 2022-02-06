@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+.main {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: grey;
+	padding: 10px;
+	width: 620px;
+	margin: 6% 25% 0 25%;
+	font-family: "Comic Sans MS";
+}
+
+#inp {
+	border-color: lightgrey;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	width: 100%;
+	margin-bottom: 5px;
+	height: 50px;
+	font-size: 45px;
+	text-align: right;
+}
+
+button {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+	margin: 5px 0 0 0;
+	font-size: 100px;
+}
+
+#eeggs {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.eeggslabel {
+	font-size: 40px;
+}
+
+.easter {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.scrolldown {
+	margin-top: 40px;
+}
+
+.stupid1 {
+	margin-top: 1000px;
+	margin-bottom: 1000px;
+}
+
+.stupid2 {
+	margin-top: 3000px;
+	margin-bottom: 3000px;
+}
+
+.stupid3 {
+	margin-top: 5000px;
+	margin-bottom: 5000px;
+}
+
+.stupid4 {
+	margin-top: 10000px;
+	margin-bottom: 10000px;
+}
+
+.stupid5 {
+	margin-top: 30000px;
+	margin-bottom: 100px;
+}
