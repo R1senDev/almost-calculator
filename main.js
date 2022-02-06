@@ -213,7 +213,7 @@ function onScreenChange() {
 
 function checkYOffset() {
 	if (window.pageYOffset >= 49354) {
-		alert('Пожалуй, отключу скролл: он явно тебе мешает :D');
+		alert('I think I\'ll turn off the scroll: it\'s clearly bothering you :D');
 		document.body.style.overflow = 'hidden';
 		clearInterval(offsetCheckingTimer);
 	}
@@ -221,4 +221,3 @@ function checkYOffset() {
 
 document.addEventListener('DOMContentLoaded', onLoad);
 let offsetCheckingTimer = setInterval(checkYOffset, 20);
-// YOffset == 49354
