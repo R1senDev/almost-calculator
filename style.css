@@ -86,3 +86,9 @@ button {
 	margin-top: 30000px;
 	margin-bottom: 100px;
 }
+
+.resetbtn {
+	float: right;
+	margin: 0 20px 20px 0;
+	font-size: 15px;
+}
