@@ -5,7 +5,6 @@ const pentagon = document.getElementById('pentagon');
 let dots = 1;
 let loops = 0;
 let blinkLoops = 0;
-
 let keys = {
 	one: function() {
 		if (screen.value != 0) {
