@@ -92,3 +92,27 @@ button {
 	margin: 0 20px 20px 0;
 	font-size: 15px;
 }
+
+#k1, #reload {
+	background-color: rgba(255, 165, 0, 0.16);
+}
+
+#k4, #k2, #clear {
+	background-color: rgba(255, 165, 0, 0.33);
+}
+
+#k7, #k5, #k3, #equals {
+	background-color: rgba(255, 165, 0, 0.5);
+}
+
+#k8, #k6, #multiple {
+	background-color: rgba(255, 165, 0, 0.66);
+}
+
+#k9, #minus {
+	background-color: rgba(255, 165, 0, 0.83);
+}
+
+#plus {
+	background-color: rgb(255, 165, 0);
+}
