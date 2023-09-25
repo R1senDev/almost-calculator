@@ -119,7 +119,9 @@ let keys = {
 		try {
 			let problem = new Function(`return ${screen.value}`);
 			screen.value = problem();
-		} catch (SyntaxError) {}
+		} catch (SyntaxError) {
+			alert(':(');
+		}
 	},
 	clear: function() {
 		let newScreen = '';
